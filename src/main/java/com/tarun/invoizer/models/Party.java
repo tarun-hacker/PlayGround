@@ -10,7 +10,6 @@ import javax.validation.constraints.NotBlank;
 @Data
 public class Party extends BaseDBO{
 
-    @NotBlank
     private String name;
 
     private String gstno;

@@ -12,8 +12,6 @@ import javax.validation.constraints.NotNull;
 @Table(name = "invoices")
 @Data
 public class Invoice extends BaseDBO {
-    @NotNull
-    @OneToOne
-    @JoinColumn(name = "party_id")
-    private Party billedTo;
+
+    String xyz;
 }
